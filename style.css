@@ -24,7 +24,7 @@ header {
   height: 100px;
   text-align: center;
   background-color: darkgreen; 
-  
+  padding-top: 10px;
 }
 
 header .heading a {
