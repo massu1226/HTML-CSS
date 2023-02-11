@@ -1,0 +1,161 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: #6c6b6b;
+
+}
+
+
+header,nav,h2,.main-visual,footer {
+  font-family: Arial, Helvetica, sans-serif;
+
+}
+
+a {
+  text-decoration: none;
+  color: #38b48b;
+  
+}
+
+
+header {
+  width: 100%;
+  height: 100px;
+  text-align: center;
+  background-color: darkgreen; 
+  
+}
+
+header .heading a {
+  color: #fff;
+  
+  
+}
+header .heading a {
+  margin-top: 10px;
+
+}
+
+.nav-list {
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px; 
+  margin: 0 auto;
+  
+}
+.nav-list-item {
+  list-style: none;
+  display: inline-flex;
+  margin-left: 20px;
+  margin-right: 20px;
+  color: #fff;
+}
+
+main {
+  width: 100%;
+  margin-top:auto;
+  padding-top: 10px;
+  padding-right: 40px;
+  padding-left: 40px;
+  padding-bottom: 40px; 
+  background-color: #ecfcdf;
+
+}
+.introduction-h2 {
+  text-align: center;
+  margin-bottom: 10px;
+}
+.introduction-contents {
+  margin:0 auto;
+  display: flex;
+}
+.introduction-img-area {
+  width: 30%;
+  margin-right: 10px;
+  
+}
+.my-picture {
+  width: 100%;
+  border-radius: 10px;
+}
+.introduction-area {
+  background-color: #fff;
+  border-radius: 10px;
+  width: 70%;
+  padding-right: 10px;
+  padding-left: 10px;
+  line-height: 40px;
+}
+
+.introduction-label {
+  width: 100px;
+}
+
+.introduction-text {
+  text-align: left;
+  display: inline;
+} 
+
+.fab {
+  margin-right: 20px;
+  margin-bottom: 20px;
+  
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+
+
+footer {
+  width: 100%;
+  height: 100px; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: darkgreen;
+  position:absolute;
+  margin-top: auto;
+}
+.footer-text {
+  color: #fff;
+  
+}
+@media screen and (max-width:768px) {
+  .sp_br {
+    display: block;768px
+  }
+
+  .p span {
+    display: inline-block;
+  }
+  .introduction-img-area {
+    width: 100%;
+  }
+
+  .introduction-area {
+    width: 100% ;
+  }
+
+  .introduction-contents {
+    margin:0 auto;
+    display: block ;
+  }
+  .introduction-text {
+    text-align: left;
+    display: inline-block;
+  } 
+  .flex {
+    display: block;
+    flex-direction: wrap;
+  } 
+  footer {
+    display: block ;
+  }
+ 
+    
+}
